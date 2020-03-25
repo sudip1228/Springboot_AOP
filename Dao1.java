@@ -9,8 +9,11 @@ public class Dao1 {
 
 	@TrackTime//this annotation is made by ourself.see TrackTime class which defines this annotation for further details.
 	public String retrievesomething() {
+
+		System.out.println("commited to new branch");
+		return "Dao100";
+
 		
-		return "Dao1";
 	}
 	
 }
